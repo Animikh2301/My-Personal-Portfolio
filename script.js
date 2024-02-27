@@ -64,5 +64,21 @@ const typed = new Typed('.multiple-text', {
     loop: true
 });
 
-//==================== progress bar ============================//
+//==================== About read more text ============================//
 
+function changeReadMore() {
+    const mycontent = document.querySelector('.Read-more-text');
+    const mybutton = document.querySelector('.Read-more-btn');
+    const dots = document.querySelector('.extra-dots');
+
+    if(mycontent.style.display === 'none' || mycontent.style.display === '') {
+        mycontent.style.display = 'inline';
+        dots.style.display = "none";
+        mybutton.textContent = 'Read Less';
+    }
+    else {
+        mycontent.style.display = 'none';
+        mybutton.textContent = 'Read More';
+        dots.style.display = 'inline';
+    }
+}
