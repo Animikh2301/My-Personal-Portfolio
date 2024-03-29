@@ -37,7 +37,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 8rem 9% 5rem;
 }
 
 .header {
@@ -258,6 +258,10 @@ span {
     background: var(--second-bg-color);
 }
 
+.skills-section h1 {
+    margin-bottom: 2rem;
+}
+
 .skills-section .skills-container {
     width: 49%;
     height: 69vh;
@@ -267,7 +271,7 @@ span {
     align-items: center;
     justify-content: center;
     margin-top: 12px;
-    margin-right: 5px;
+    margin-right: 6px;
     margin-left: 5px;
     border-radius: 2rem;
 }
@@ -568,14 +572,14 @@ span {
 } */
 
 .project h2 {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .project-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .project-container .project-box {
@@ -589,6 +593,30 @@ span {
 .project-box img {
     width: 100%;
     transition: .5s ease;
+}
+
+.project-box1 {
+    height: 90%;
+}
+
+.project-box2 {
+    height: 90%;
+}
+
+.project-box3 {
+    height: 90%;
+}
+
+.project-box4 {
+    height: 115%;
+}
+
+.project-box5 {
+    height: 115%;
+}
+
+.project-box6 {
+    height: 115%;
 }
 
 .project-box:hover img {
@@ -638,6 +666,16 @@ span {
 .project-layer a i {
     font-size: 2rem;
     color: var(--second-bg-color);
+}
+
+
+.project-box #h4-project-box6-specific-color {
+    color: black;
+}
+
+.project-box #p-specific-color6 {
+    color: black;
+    font-weight: 700;
 }
 
 .contact {
